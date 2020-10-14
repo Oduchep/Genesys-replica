@@ -9,12 +9,38 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+/* Flexbox */
+.d-flex {
+  display: flex;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.fd-row {
+  flex-direction: row;
+}
+
+.fd-row-reverse {
+  flex-direction: row-reverse;
+}
+
+/* Padding styles */
 .pt-1 {
   padding-top: 1rem !important;
 }
 
 .pb-1 {
   padding-bottom: 1rem !important;
+}
+
+.pl-1 {
+  padding-left: 1rem;
+}
+
+.pr-1 {
+  padding-right: 1rem;
 }
 
 .pt-2 {
@@ -25,12 +51,45 @@ body {
   padding-bottom: 1.5rem !important;
 }
 
+.pl-2 {
+  padding-left: 1.5rem;
+}
+
+.pr-2 {
+  padding-right: 1.5rem;
+}
+
+.pt-3 {
+  padding-top: 2rem !important;
+}
+
+.pb-3 {
+  padding-bottom: 2rem !important;
+}
+
+/* margin styles */
 .mt-1 {
   margin-top: 1rem !important;
 }
 
 .mb-1 {
   margin-bottom: 1rem !important;
+}
+
+.mt-2 {
+  margin-top: 1.5rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mt-3 {
+  margin-top: 2rem !important;
+}
+
+.mb-3 {
+  margin-bottom: 2rem !important;
 }
 
 .purp-col {
@@ -51,4 +110,12 @@ body {
 
 .wdt-80 {
   width: 80% !important;
+}
+
+/* For tablet Screen */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1000px) {
+}
+
+/* For Laptop Screen */
+@media only screen and (min-device-width: 1200px) {
 }

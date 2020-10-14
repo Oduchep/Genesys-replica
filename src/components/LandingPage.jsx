@@ -42,7 +42,7 @@ class Welcome extends React.Component {
           <div>
             <h3> StartZone </h3>
             <p className="pt-1 pb-1"> The business environment is harsh for early-stage businesses. We can help you rise above it all. </p>
-            <button className="btn-more"> LEARN MORE </button>
+            <button className="btn-more"> HERE'S HOW </button>
           </div>
         </section>
 
