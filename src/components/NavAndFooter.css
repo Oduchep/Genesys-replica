@@ -1,0 +1,12 @@
+.nav-container {
+    padding: 2rem 0;
+    background: #17255a;
+}
+
+.subnav {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
