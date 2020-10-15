@@ -23,10 +23,10 @@
   padding: 1rem 0;
 }
 
-.carribean-quote {
+.vivid-quote {
   font-size: 34px;
   line-height: 37px;
-  color: #03cea4;
+  color: #f5772f;
 }
 
 .section-img {
@@ -36,19 +36,17 @@
 }
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1400px) {
-  .soft-sect-1 {
+  .des-sect-1 {
     display: flex;
     flex-direction: row-reverse;
-    text-align: unset;
-    justify-content: space-between;
   }
-  .soft-sect-1,
-  .soft-sect-2 {
+  .des-sect-1,
+  .des-sect-2 {
     width: 90%;
     margin: auto;
   }
   .title-holder,
-  .carribean-quote {
+  .vivid-quote {
     width: 50%;
   }
   .section-img {
@@ -57,7 +55,7 @@
     margin: auto;
   }
 
-  .soft-sect-3 div {
+  .des-sect-3 div {
     width: 50%;
     margin: auto;
   }

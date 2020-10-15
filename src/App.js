@@ -1,9 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
-import Welcome from "./components/LandingPage";
 import SubNav from './components/SubNav';
-import Home from './components/Learnable';
+import Home from './components/LandingPage';
 import SoftwareDeveloper from './components/SoftwareDeveloper';
 import ProductDesigner from './components/ProductDesigner';
 import Apply from './components/Apply';
@@ -15,7 +14,6 @@ function App() {
     <Router>
       <div>
         <SubNav />
-        <Welcome />
         <Route exact path='/' component={Home} />
         <Route path='/software developer' component={SoftwareDeveloper} />
         <Route path='/product designer' component={ProductDesigner} />

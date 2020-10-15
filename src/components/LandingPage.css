@@ -7,7 +7,6 @@ body {
   color: #17255a;
   font-weight: 900;
   text-align: center;
-  padding: 1rem 0;
   line-height: 2.5rem;
 }
 
@@ -48,4 +47,54 @@ body {
 .landing-sec-5,
 .landing-sec-6 {
   text-align: center;
+}
+
+@media only screen and (min-device-width: 800px) and (max-device-width: 1400px) {
+  .welcome,
+  .we {
+    width: 50%;
+    text-align: left;
+    padding-left: 4rem;
+  }
+
+  .landing-sec-1,
+  .landing-sec-2,
+  .landing-sec-3,
+  .landing-sec-4,
+  .landing-sec-5,
+  .landing-sec-6 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+  }
+
+  .img-sm {
+    width: 240px;
+    height: 240px;
+    padding: 1rem 1rem 0 0;
+  }
+
+  .gen-code-pink {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ignite {
+    display: flex;
+    align-items: center;
+  }
+
+  .code-pink {
+    display: flex;
+  }
+
+  .things {
+    font-size: 60px;
+  }
+
+  .banner-image {
+    width: 90%;
+    height: 460px;
+  }
 }

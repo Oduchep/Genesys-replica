@@ -10,7 +10,7 @@ class Journal extends React.Component {
                 </section>
 
                 <section>
-                    <img src={require("../resources/journal/Photo 42.png")} alt="pic" />
+                    <img src={require("../resources/journal/Photo.png")} alt="pic" />
                     <div>
                         <p> INSPIRATION </p>
                         <h1> Learn Design Thinking like a Pro and Build 
@@ -27,7 +27,7 @@ class Journal extends React.Component {
                             ullamcorper. Lacus.
                         </p>
                         <div>
-                            <img src={require("../resources/journal/Photo 42.png")} alt="round pic" />
+                            <img src={require("../resources/journal/Photo.png")} alt="round pic" />
                             <p> David Mong, Apr 9, 2020 </p>
                         </div>
                     </div>
