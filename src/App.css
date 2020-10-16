@@ -7,6 +7,7 @@
 body {
   font-family: "Nunito";
   font-size: 15px;
+  color: #273043;
 }
 
 .hidden {
@@ -110,6 +111,10 @@ body {
 
 .white-col {
   color: #ffff;
+}
+
+.gun-metal-col {
+  color: #273043;
 }
 
 .purp-col {

@@ -5,7 +5,7 @@ class ProductDesign extends React.Component {
     render() {
         return (
             <div>
-                <section className="t-align des-sect-1">
+                <section className="pt-2 t-align des-sect-1">
                     <div className="profile-photo">
                         <img src={require("../resources/learnable_product_designer/Cutout 1.png")} alt="" />
                     </div>
@@ -27,7 +27,7 @@ class ProductDesign extends React.Component {
 
                             Oh, and you’ll make amazing friends while you're 
                             at it!
-                        </p>
+                        </p><br/><br/>
                     </div>
                 </section>
 
@@ -40,28 +40,28 @@ class ProductDesign extends React.Component {
 
                 <section className="des-sect-3">
                     <img className="section-img" src={require("../resources/learnable_product_designer/Photo.png")} alt="" />
-                    <div>
-                        <h1> We expect you to… </h1>
-                        <p> Play nice with other people.
+                    <div className="sect-text-div">
+                        <h1 className=""> We expect you to… </h1>
+                        <p className="pt-3 pb-3"> Play nice with other people. <br/><br/>
 
                             Be an actively engaged person. That means you 
-                            are present, motivated, and social.
+                            are present, motivated, and social. <br/><br/>
 
                             Understand how to use the Figma design 
-                            software
+                            software <br/><br/>
 
                             Be able to create initial design layouts with 
                             confidence and know-how to effectively 
-                            communicate concepts to everyone on your team.
+                            communicate concepts to everyone on your team. <br/><br/>
 
                             Have a basic understanding of design principles 
-                            and theories
+                            and theories <br/><br/>
 
                             To have creative courage. This is a tough industry, 
-                            only the brave and sturdy remain.
+                            only the brave and sturdy remain. <br/><br/>
 
                             Be prepared to defend your decisions and take 
-                            constructive criticism.
+                            constructive criticism. <br/><br/>
 
                             To us, beauty without substance has no value. At 
                             Genesys, design thinking and execution are 

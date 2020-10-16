@@ -5,7 +5,7 @@ class SoftwareDeveloper extends React.Component {
     render() {
         return (
             <div>
-                <section className="t-align soft-sect-1">
+                <section className="pt-2 t-align soft-sect-1">
                     <div className="profile-photo">
                         <img src={require("../resources/learnable_software_developer/Cutout 1.png")} alt="software developer" />
                     </div>
@@ -23,7 +23,7 @@ class SoftwareDeveloper extends React.Component {
                             for you. You’ll get a shot at building amazing 
                             things, developing yourself, learning on the job, 
                             while exchanging healthy jokes and having 
-                            random hangouts once in a while</p>
+                            random hangouts once in a while</p> <br/><br/>
                     </div>
                 </section>
 
@@ -34,30 +34,32 @@ class SoftwareDeveloper extends React.Component {
                 </section>
                 <section className="soft-sect-3">
                     <img className="section-img" src={require("../resources/learnable_software_developer/Photo.png")} alt="computer" />
-                    <div>
-                        <h1 className="t-underline"> We expect you to… </h1>
-                        <p className="pt-3 pb-3"> Play nice with other people.
+                    
+
+                    <div className="sect-text-div">
+                        <h1> We expect you to… </h1>
+                        <p className="pt-3 pb-3"> Play nice with other people. <br/><br/>
 
                             Be an actively engaging person. That means you 
                             are present, motivated, and social. You know how 
-                            to communicate effectively with your teammates.
+                            to communicate effectively with your teammates. <br/><br/>
 
                             Love to code. You understand the basics of 
                             programming and object-oriented design and 
-                            development.
+                            development. <br/><br/>
 
                             Have an eye for detail. Your keen observation 
                             helps you catch discrepancies and fix them 
-                            quickly.
+                            quickly. <br/><br/>
 
                             Be innately curious. Your love for technology is 
                             insatiable, so you’re always researching and 
                             experimenting. Learning new technical skills 
-                            while on the job is something you look forward to.
+                            while on the job is something you look forward to. <br/><br/>
 
                             Appreciate good design. You want to make 
                             something that doesn't just work flawlessly but 
-                            looks amazing.
+                            looks amazing. <br/><br/>
                         </p>
                     </div>
                 </section>

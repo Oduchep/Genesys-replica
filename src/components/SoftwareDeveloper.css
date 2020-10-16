@@ -1,3 +1,7 @@
+body {
+  box-sizing: border-box;
+}
+
 .profile-photo {
   width: 250px;
   height: 250px;
@@ -16,23 +20,33 @@
 .title {
   width: 316px;
   padding: 1rem 0;
+  margin: auto;
 }
 
 .title p {
   width: 346px;
   padding: 1rem 0;
+  margin: auto;
 }
 
 .carribean-quote {
   font-size: 34px;
   line-height: 37px;
   color: #03cea4;
+  text-align: center;
 }
 
-.section-img {
-  height: 375px;
-  width: 315px;
+.soft-sect-3 .section-img {
+  width: 375px;
+  height: 315px;
   padding: 1rem 0 3rem 0;
+  margin: auto;
+}
+
+.sect-text-div {
+  width: 90%;
+  margin: auto;
+  text-align: center;
 }
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1400px) {
@@ -42,23 +56,33 @@
     text-align: unset;
     justify-content: space-between;
   }
+
   .soft-sect-1,
   .soft-sect-2 {
     width: 90%;
     margin: auto;
   }
+
+  .title {
+    margin: unset;
+  }
+
   .title-holder,
   .carribean-quote {
     width: 50%;
-  }
-  .section-img {
-    width: 1024px;
-    height: 666px;
-    margin: auto;
+    text-align: unset;
   }
 
-  .soft-sect-3 div {
+  .soft-sect-3 .section-img {
+    width: 1024px;
+    height: 666px;
+    margin-left: 7.5rem;
+    padding-top: 2rem;
+  }
+
+  .sect-text-div {
     width: 50%;
     margin: auto;
+    text-align: unset;
   }
 }
