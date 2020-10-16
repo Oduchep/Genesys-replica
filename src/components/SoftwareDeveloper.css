@@ -20,6 +20,7 @@ body {
 .title {
   width: 316px;
   padding: 1rem 0;
+  line-height: 37px;
   margin: auto;
 }
 

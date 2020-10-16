@@ -160,6 +160,10 @@ body {
     flex-direction: column-reverse;
   }
 
+  .font-96 {
+    font-size: 96px;
+  }
+
   .flex-align-center {
     align-items: center;
   }

@@ -26,8 +26,10 @@ class Apply extends React.Component {
                 </section>
 
                 <section className="apply-sect-2">
-                    <img className="apply-img apply-img-2" src={require("../resources/apply/Photo.png")} alt="computer keyboard"/>
-                    <div>
+                    <div className="apply-img-2-div">
+                        <img className="apply-img-2" src={require("../resources/apply/Photo.png")} alt="computer keyboard"/>
+                    </div>
+                    <div className="apply-sect-2-div">
                         <h1> How To Get In </h1>
                         <p> We are very deliberate with our selection process. 
                             We are on a quest to find amazing people who 

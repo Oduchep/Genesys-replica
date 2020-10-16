@@ -22,8 +22,15 @@
 }
 
 .apply-sect-1,
-.apply-sect-2 {
+.apply-sect-2-div,
+.apply-img-2-div {
   text-align: center;
+}
+
+.apply-img-2 {
+  width: 375px;
+  height: 315px;
+  padding: 2rem 0;
 }
 
 .apply-sect-2 h1 {
@@ -53,12 +60,9 @@
     height: 666px;
   }
 
-  .apply-sect-2 {
-    text-align: unset;
-  }
-
-  .apply-sect-2 div {
+  .apply-sect-2-div {
     width: 50%;
     margin: auto;
+    text-align: unset;
   }
 }
