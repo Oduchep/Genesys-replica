@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+}
+
+.learnable-sect-1,
+.learnable-sect-2,
+.learnable-sect-3,
+.learnable-sect-4,
+.learnable-sect-5,
+.learnable-sect-6,
+.learnable-sect-7,
+.learnable-sect-8,
+.learnable-sect-9,
+.learnable-sect-10,
+.learnable-sect-11,
+.learnable-sect-12,
+.learnable-sect-13,
+.learnable-sect-14,
+.learnable-sect-15,
+.learnable-sect-16 {
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.learnable-sect-1 {
+  background: #eac435;
+  color: #17255a;
+}
+.learnable-sect-1 h1 {
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 37px;
+  padding-bottom: 2rem;
+}
+.learnable-sect-1 p {
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+
+.learnable-sect-2 h1 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 44px;
+  color: #17255a;
+  padding-bottom: 2rem;
+}
+
+.learnable-sect-3 .dev-des {
+  display: flex;
+}
+.dev-circle,
+.des-circle {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  padding: 4rem 0;
+}
+.dev-circle {
+  background: #03cea4;
+}
+.des-circle {
+  background: #17255a;
+}
+.des-circle p {
+  color: #ffff;
+}
+.dev-des .dev-circle .p-dev,
+.dev-des .des-circle .p-des {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+}
+
+.learnable-sect-4 {
+  display: flex;
+  flex-direction: column;
+}
+.learnable-sect-4-div-1,
+.learnable-sect-4-div-2 {
+  display: flex;
+}
+.learnable-sect-4-div-1 div,
+.learnable-sect-4-div-2 div {
+  width: 40%;
+  margin: auto;
+}
+.learnable-sect-4-div-1 span,
+.learnable-sect-4-div-2 span {
+  color: #03cea4;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 37px;
+}
+
+.profile-pic-div {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: #03cea4;
+  margin: auto;
+}
+.profile-pic {
+  background: transparent;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}

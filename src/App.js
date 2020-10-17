@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import SubNav from './components/SubNav';
-import Home from './components/LandingPage';
+import Home from './components/Learnable';
 import SoftwareDeveloper from './components/SoftwareDeveloper';
 import ProductDesigner from './components/ProductDesigner';
 import Apply from './components/Apply';

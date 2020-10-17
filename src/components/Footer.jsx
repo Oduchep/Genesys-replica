@@ -30,10 +30,12 @@ function Footer() {
             </div>
 
             <div>
-                <img src={require("../resources/footer/image 32.png")} alt="dev studio pic"/>
-                <p className="non-linking"> Learnable is proud to be a collaborative effort of all 
-                    the arms of our product team</p><br/>
-                <p className="linking"> HEAD TO DEV STUDIO </p>
+                <img className="devstudio-img" src={require("../resources/footer/image 32.png")} alt="dev studio pic"/>
+                <div>
+                    <p className="non-linking"> Learnable is proud to be a collaborative effort of all 
+                        the arms of our product team</p><br/>
+                    <p className="linking"> HEAD TO DEV STUDIO </p>
+                </div>
             </div>
 
             <div>
