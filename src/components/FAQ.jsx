@@ -1,10 +1,12 @@
 import React from "react";
 import "./FAQ.css";
+import SubNav from './SubNav';
 
 class Frequent extends React.Component {
     render() {
         return (
             <div>
+                <SubNav />
                 <section className="FAQ-sect-1">
                     <img className="FAQ-photo" src={require("../resources/FAQ/Photo.png")} alt="hand"/>
                     <h1> FAQ </h1>

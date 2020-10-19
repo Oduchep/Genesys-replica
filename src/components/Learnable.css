@@ -5,6 +5,7 @@
 }
 
 /* GENERAL CLASSES */
+.learnable-sect-3 .banner-img,
 .general-pic {
   width: 375px;
   height: 315px;
@@ -69,13 +70,15 @@
 
 .learnable-sect-3 .dev-des {
   display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
 }
 .dev-circle,
 .des-circle {
   width: 170px;
   height: 170px;
   border-radius: 50%;
-  padding: 4rem 0;
+  padding: 4rem 0 4rem 2.5rem;
 }
 .dev-circle {
   background: #03cea4;
@@ -228,6 +231,7 @@
   background: #f5772f;
 }
 
+.learnable-sect-4,
 .learnable-sect-12,
 .learnable-sect-16 {
   background: #eeeeee;
@@ -301,8 +305,6 @@
   .learnable-sect-12,
   .learnable-sect-13,
   .learnable-sect-14,
-  .learnable-sect-15,
-  .learnable-sect-16,
   .learnable-sect-17 {
     padding: 3rem 3rem;
     display: flex;
@@ -318,37 +320,51 @@
     flex-direction: row-reverse;
   }
 
+  .learnable-sect-2 {
+    height: 80vh;
+  }
+  .learnable-sect-2 h1,
+  .learnable-sect-2 p {
+    padding-left: 2rem;
+  }
+
+  .learnable-sect-3 {
+    position: absolute;
+    top: 550px;
+  }
   .learnable-sect-3 .dev-des {
     display: flex;
+    float: right;
+    padding: 0 3rem 2rem 0;
   }
   .dev-circle,
   .des-circle {
-    width: 170px;
-    height: 170px;
-    border-radius: 50%;
-    padding: 4rem 0;
+    margin-left: 1rem;
+    width: 200px;
+    height: 200px;
+    padding: 5rem 2rem;
   }
-  .dev-circle {
-    background: #03cea4;
+  .learnable-sect-3 .learnable-sect-3-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-  .des-circle {
-    background: #17255a;
+  .learnable-sect-3 .banner-img {
+    width: 90%;
+    height: 60vh;
   }
-  .des-circle p {
-    color: #ffff;
-  }
-  .dev-des .dev-circle .p-dev,
-  .dev-des .des-circle .p-des {
-    font-size: 20px;
-    font-weight: 900;
-    line-height: 22px;
-    letter-spacing: 0.5px;
+  .learnable-sect-3 .hidden {
+    padding-left: 3rem;
   }
 
   .learnable-sect-4 {
+    height: 50vh;
+  }
+  .learnable-sect-4-div {
     display: flex;
-    width: 70%;
-    margin: auto;
+    width: 50%;
+    margin: 15rem auto 0 auto;
     flex-direction: row;
   }
   .learnable-sect-4-div-1,
@@ -395,7 +411,6 @@
 
   .rainbow-9,
   .rainbow-12 {
-    color: #2d1e2f;
     height: 339px;
     width: 310px;
     text-decoration: none;
@@ -404,16 +419,12 @@
   .rainbow-8,
   .rainbow-10,
   .rainbow-11 {
-    color: #ffff;
     height: 339px;
     width: 310px;
     text-decoration: none;
   }
 
-  .learnable-sect-12,
-  .learnable-sect-16 {
-    background: #eeeeee;
-  }
+  /* Edit starts here for later */
   .organisers-div {
     display: flex;
     justify-content: space-around;
@@ -427,25 +438,50 @@
     letter-spacing: 0.5px;
     padding-bottom: 1rem;
   }
+  /* Edit ends here for later */
 
-  .learnable-sect-14 {
-    background: #17255a;
-  }
-  .learnable-sect-14 .text-center .general-heading,
-  .learnable-sect-14 .text-center .general-p {
-    color: #ffff;
+  .learnable-sect-13 .general-heading,
+  .learnable-sect-13 .general-p {
+    width: 60%;
   }
 
-  .learnable-sect-15 h1 {
-    font-size: 34px;
-    font-weight: 900;
-    line-height: 37px;
-    letter-spacing: 0.25px;
-    text-align: center;
-    padding-bottom: 3rem;
-  }
-
+  .learnable-sect-15 h1,
   .learnable-sect-16 h1 {
-    text-align: center;
+    padding-left: 4rem;
+    text-align: unset;
+  }
+
+  .learnable-sect-16-div {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .learnable-sect-16-div .text-center {
+    width: 22%;
+  }
+  .learnable-sect-16-div .general-pic {
+    width: 100%;
+    height: 313px;
+  }
+  .learnable-sect-16-div .general-heading {
+    padding: 2rem 0;
+  }
+  .learnable-sect-16-div .general-p {
+    padding: 0 0 2rem 1rem;
+  }
+
+  .learnable-sect-17 .text-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .learnable-sect-17 .last {
+    width: 20%;
+  }
+  .learnable-sect-17 .middle {
+    width: 60%;
+  }
+  .learnable-sect-17 .pr-2 {
+    padding-right: 2rem;
   }
 }

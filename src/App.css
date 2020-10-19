@@ -4,8 +4,15 @@
   padding: 0;
 }
 
-body {
-  font-family: "Nunito" sans-serif;
+p,
+li {
+  font-family: "Nunito" !important;
+}
+
+h1,
+span,
+button {
+  font-family: "Roboto" !important;
 }
 
 .hidden {

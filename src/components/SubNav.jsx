@@ -13,7 +13,7 @@ class SubNav extends React.Component {
     render(){
         const styler = {
             color: "#ffff",
-            fontSize: 20
+            fontSize: 15
         }
 
         return (

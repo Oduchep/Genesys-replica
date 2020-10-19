@@ -1,12 +1,14 @@
 import React from "react";
 import './SoftwareDeveloper.css';
+import SubNav from './SubNav';
 
 class SoftwareDeveloper extends React.Component {
     render() {
         return (
             <div>
+                <SubNav />
                 <section className="pt-2 t-align soft-sect-1">
-                    <div className="profile-photo">
+                    <div className="profile-photos">
                         <img src={require("../resources/learnable_software_developer/Cutout 1.png")} alt="software developer" />
                     </div>
                     <div className="title-holder">
@@ -16,7 +18,7 @@ class SoftwareDeveloper extends React.Component {
                             who know that limits are made to be pushed. We value 
                             skill and aptitude, but we honor those who care about 
                             working with their team to add the Genesys flavour to 
-                            every project. </p> <br/><br/>
+                            every project. </p>
                         <p> As a developer, being part of the team exposes 
                             you to a range of diverse, like-minded talented 
                             people who are sure to make the experience fun 
@@ -33,8 +35,9 @@ class SoftwareDeveloper extends React.Component {
                         great things happen.” </h1>
                 </section>
                 <section className="soft-sect-3">
-                    <img className="section-img" src={require("../resources/learnable_software_developer/Photo.png")} alt="computer" />
-                    
+                    <div className="section-img-div">
+                        <img className="section-img" src={require("../resources/learnable_software_developer/Photo.png")} alt="computer" />
+                    </div>
 
                     <div className="sect-text-div">
                         <h1> We expect you to… </h1>

@@ -1,10 +1,12 @@
 import React from "react";
 import "./ProductDesigner.css"
+import SubNav from './SubNav';
 
 class ProductDesign extends React.Component {
     render() {
         return (
             <div>
+                <SubNav />
                 <section className="pt-2 t-align des-sect-1">
                     <div className="profile-photo">
                         <img src={require("../resources/learnable_product_designer/Cutout 1.png")} alt="" />
@@ -39,7 +41,9 @@ class ProductDesign extends React.Component {
                 </section>
 
                 <section className="des-sect-3">
-                    <img className="section-img" src={require("../resources/learnable_product_designer/Photo.png")} alt="" />
+                    <div className="section-img-div">
+                        <img className="section-img" src={require("../resources/learnable_product_designer/Photo.png")} alt="a pic" />
+                    </div>
                     <div className="sect-text-div">
                         <h1 className=""> We expect you to… </h1>
                         <p className="pt-3 pb-3"> Play nice with other people. <br/><br/>

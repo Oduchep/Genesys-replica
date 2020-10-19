@@ -1,10 +1,12 @@
 import React from "react";
 import './Journal.css';
+import SubNav from './SubNav';
 
 class Journal extends React.Component {
     render() {
         return (
             <div>
+                <SubNav />
                 <section className="journal-sect-1">
                     <h1 className="purp-col f-weight font-40 font-96"> Journal </h1>
                     <button className="btn purp-col"> CATEGORIES </button>

@@ -1,10 +1,12 @@
 import React from "react";
 import './Apply.css';
+import SubNav from './SubNav';
 
 class Apply extends React.Component {
     render() {
         return (
             <div>
+                <SubNav />
                 <section className="apply-sect-1">
                     <img className="apply-img" src={require("../resources/apply/Rectangle 42.png")} alt="computer keyboard"/>
                     <div className="apply-div">

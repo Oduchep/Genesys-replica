@@ -1,12 +1,14 @@
 import React from "react";
 import './Learnable.css';
 import './FAQ.css';
+import SubNav from './SubNav';
 
 
 class Home extends React.Component {
     render() {
         return (
             <div>
+                <SubNav />
                 <section className="learnable-sect-1">
                     <div className="text-center">
                     <h1 className="general-heading"> Coming soon: Learnable ‘20 </h1>
@@ -36,33 +38,36 @@ class Home extends React.Component {
                             <p>What to expect</p>
                         </div>
                     </div>
-                    <div>
+                    <div className="learnable-sect-3-div text-center">
                         <img className="hidden" src={require("../resources/learnable/Skip to Next Section.png")} alt="skip arrow"/>
-                        <img src={require("../resources/learnable/Rectangle 4.png")} alt="youngsters"/>
+                        <img className="banner-img" src={require("../resources/learnable/Rectangle 4.png")} alt="youngsters"/>
                     </div>
                 </section>
 
                 <section className="learnable-sect-4">
-                    <div className="learnable-sect-4-div-1">
-                    <div>
-                        <span>305</span>
-                        <p>Young Software Developers Trained</p>
+                    <div className="learnable-sect-4-div">
+                        <div className="learnable-sect-4-div-1">
+                        <div>
+                            <span>305</span>
+                            <p>Young Software Developers Trained</p>
+                        </div>
+                        <div>
+                            <span>2100</span>
+                            <p>Tech Enthusiasts</p>
+                        </div>
+                        </div>
+                        <div className="learnable-sect-4-div-2">
+                        <div>
+                            <span>8</span>
+                            <p>Startups Incubated</p>
+                        </div>
+                        <div>
+                            <span>250</span>
+                            <p>Small Businesses supported</p>
+                        </div>
+                        </div>
                     </div>
-                    <div>
-                        <span>2100</span>
-                        <p>Tech Enthusiasts</p>
-                    </div>
-                    </div>
-                    <div className="learnable-sect-4-div-2">
-                    <div>
-                        <span>8</span>
-                        <p>Startups Incubated</p>
-                    </div>
-                    <div>
-                        <span>250</span>
-                        <p>Small Businesses supported</p>
-                    </div>
-                    </div>
+
                 </section>
 
                 <section className="learnable-sect-5">
@@ -326,7 +331,7 @@ class Home extends React.Component {
 
                 <section className="learnable-sect-16">
                     <h1 className="general-heading"> Journal </h1>
-                    <div>
+                    <div className="learnable-sect-16-div">
                         <div className="text-center">
                             <img className="general-pic" src={require("../resources/learnable/image 23.png")} alt="lady pic" />
                             <p className="general-btn"> INSPIRATION </p><br/>
@@ -362,15 +367,15 @@ class Home extends React.Component {
                     <div className="text-center">
                         <h1 className="general-heading">Mentioned In</h1>
                     </div>
-                    <div className="text-center">
+                    <div className="text-center last">
                         <img className="pr-2" src={require("../resources/learnable/image 27.png")} alt="fast company"/>
                         <img src={require("../resources/learnable/image 28.png")} alt="ux magazine"/>
                     </div>
-                    <div className="text-center pt-2 pb-2">
+                    <div className="text-center middle pt-2 pb-2">
                         <img className="pr-2" src={require("../resources/learnable/image 29.png")} alt="wired"/>
                         <img src={require("../resources/learnable/image 30.png")} alt="web vision"/>
                     </div>
-                    <div className="text-center">
+                    <div className="text-center last">
                         <img src={require("../resources/learnable/image 31.png")} alt="interaction south america"/>
                     </div>
                 </section>

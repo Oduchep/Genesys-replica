@@ -1,4 +1,4 @@
-/* For sub nav */
+/* For main nav mobile */
 
 .menu-icon {
   cursor: pointer;
@@ -17,18 +17,18 @@
   padding: 11px 10px;
 }
 
-.nav-container {
+.main-nav-container {
   display: flex;
   justify-content: right;
   padding: 1rem;
-  background: #17255a;
+  background: #ffff;
 }
 
-.subnav {
+.main-nav {
   display: none;
 }
 
-.subnav-active {
+.main-nav-active {
   list-style: none;
   width: 100%;
   left: 0;
@@ -36,7 +36,15 @@
   transition: all 0.5s ease;
   z-index: 1;
   padding-left: 2rem;
-  color: white;
+  text-align: center;
+}
+
+.main-nav-div-1 {
+  width: 100%;
+}
+
+.main-nav-div-2 {
+  display: none;
 }
 
 /* For tablet and laptop screens */
@@ -45,12 +53,46 @@
     display: none;
   }
 
-  .subnav {
+  .main-nav {
     display: flex;
+    align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
     width: 70%;
     margin: auto;
-    height: 40px;
+    height: 48px;
+    list-style: none;
+  }
+
+  .main-nav-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-nav-div-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 63%;
+    align-items: center;
+  }
+
+  .main-nav-div-2 {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .main-nav-div-2 p {
+    color: #17255a;
+  }
+  .dev-studio-button {
+    outline: none;
+    background: transparent;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 2px solid #17255a;
+    color: #17255a;
+    border-radius: 5px;
   }
 }

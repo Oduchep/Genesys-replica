@@ -6,7 +6,7 @@
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background: #03cea4;
+  background: #f5772f;
   margin: auto;
 }
 
@@ -23,20 +23,22 @@
   margin: auto;
 }
 
-.title p {
-  width: 346px;
-  padding: 1rem 0;
-  margin: auto;
+.title-holder p {
+  padding: 2rem 2rem;
 }
 
 .vivid-quote {
+  padding: 0 1rem;
   font-size: 34px;
   line-height: 37px;
   color: #f5772f;
   text-align: center;
 }
 
-.des-sect-3 .section-img {
+.section-img-div {
+  text-align: center;
+}
+.section-img-div .section-img {
   height: 375px;
   width: 315px;
   padding: 1rem 0 3rem 0;
@@ -66,16 +68,19 @@
     margin: unset;
   }
 
+  .title-holder p {
+    padding: 2rem 0;
+  }
+
   .title-holder,
   .vivid-quote {
     width: 50%;
     text-align: unset;
   }
 
-  .des-sect-3 .section-img {
+  .section-img-div .section-img {
     width: 1024px;
     height: 666px;
-    margin-left: 7.5rem;
     padding-top: 2rem;
   }
 

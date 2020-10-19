@@ -24,7 +24,6 @@ body {
   outline: none;
   background-color: transparent;
   color: #03cea4;
-  font-family: Nunito;
   font-weight: 600;
   border: none;
   text-decoration: underline;
@@ -50,11 +49,14 @@ body {
 }
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1400px) {
-  .welcome,
-  .we {
+  .welcome {
     width: 50%;
     text-align: left;
     padding-left: 4rem;
+  }
+  .we {
+    width: 40%;
+    float: left;
   }
 
   .landing-sec-1,
@@ -66,7 +68,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    text-align: left;
+    text-align: unset;
   }
 
   .img-sm {
@@ -91,10 +93,16 @@ body {
 
   .things {
     font-size: 60px;
+    line-height: 60px;
+    width: 40%;
   }
 
   .banner-image {
     width: 90%;
     height: 460px;
+  }
+
+  .landing-sec-6-div {
+    width: 40%;
   }
 }

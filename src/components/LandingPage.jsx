@@ -1,6 +1,7 @@
 import React from "react";
 import "./LandingPage.css";
 
+
 class Welcome extends React.Component {
   render() {
     return (
@@ -67,7 +68,7 @@ class Welcome extends React.Component {
 
         <section className="pt-3 pb-3 landing-sec-6">
           <img className="img-lg" src={require("../resources/landing_page/Photo (3).png")} alt="StarZone" />
-          <div>
+          <div className = 'landing-sec-6-div'>
             <h1 className="pt-1 pb-1 pl-3 pr-3 white-col f-weight"> The Best Team In The World </h1>
             <p className="pt-1 pb-1 pl-2 pr-2 white-col"> The business environment is harsh for early-stage businesses. We can help you rise above it all. </p>
             <button className="btn-more"> SEE TEAM </button>

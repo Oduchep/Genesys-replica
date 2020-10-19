@@ -12,20 +12,28 @@ class SubNav extends React.Component {
 
     render(){
         const styler = {
-            color: "#ffff",
-            fontSize: 20
+            color: "#273043",
+            fontSize: 15,
         }
 
         return (
-            <div className="nav-container">
-                <ul className={this.state.clicked ? 'subnav-active' : 'subnav'}>
-                    <li><NavLink style={styler} to='/'>HOME</NavLink></li><br/>
-                    <li className="nav-links"><NavLink style={styler} to='/software developer'>SOFTWARE DEVELOPERS</NavLink></li><br/>
-                    <li className="nav-links"><NavLink style={styler} to='/product designer'>PRODUCT DESIGNERS</NavLink></li><br/>
-                    <li className="nav-links"><NavLink style={styler} to='/apply'>APPLY</NavLink></li><br/>
-                    <li className="nav-links"><NavLink style={styler} to='/journal'>JOURNAL</NavLink></li><br/>
-                    <li className="nav-links"><NavLink style={styler} to='/FAQ'>FAQ</NavLink></li>
-                </ul>
+            <div className="main-nav-container">
+                <div className="main-nav-div-1">
+                    <img className="genesys-logo" src={require("../resources/nav/genesys_logo.png")} alt="genesys logo"/>
+
+                    <ul className={this.state.clicked ? 'main-nav-active' : 'main-nav'}>
+                        <li><NavLink style={styler} to='/learnable'>LEARNABLE</NavLink></li><br/>
+                        <li className="nav-links"><NavLink style={styler} to='/agora'>AGORA</NavLink></li><br/>
+                        <li className="nav-links"><NavLink style={styler} to='/starzone'>STARZONE</NavLink></li><br/>
+                        <li className="nav-links"><NavLink style={styler} to='/about'>ABOUT</NavLink></li><br/>
+                        <li className="nav-links"><NavLink style={styler} to='/contact'>CONTACT</NavLink></li><br/>
+                    </ul>
+                </div>
+
+                <div className="main-nav-div-2">
+                    <p>build a product with</p>
+                    <button className="dev-studio-button">DEVSTUDIO</button>
+                </div>
 
                 <div className="menu-icon" onClick={this.handleClick}>
                     {this.state.clicked 

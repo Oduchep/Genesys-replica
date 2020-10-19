@@ -2,7 +2,7 @@ body {
   box-sizing: border-box;
 }
 
-.profile-photo {
+.profile-photos {
   width: 250px;
   height: 250px;
   border-radius: 50%;
@@ -10,7 +10,7 @@ body {
   margin: auto;
 }
 
-.profile-photo img {
+.profile-photos img {
   background: transparent;
   border-radius: 50%;
   width: 250px;
@@ -24,24 +24,25 @@ body {
   margin: auto;
 }
 
-.title p {
-  width: 346px;
-  padding: 1rem 0;
-  margin: auto;
+.title-holder p {
+  padding: 2rem 2rem;
 }
 
 .carribean-quote {
+  padding: 0 1rem;
   font-size: 34px;
   line-height: 37px;
   color: #03cea4;
   text-align: center;
 }
 
-.soft-sect-3 .section-img {
+.section-img-div {
+  text-align: center;
+}
+.section-img-div .section-img {
   width: 375px;
   height: 315px;
   padding: 1rem 0 3rem 0;
-  margin: auto;
 }
 
 .sect-text-div {
@@ -67,6 +68,9 @@ body {
   .title {
     margin: unset;
   }
+  .title-holder p {
+    padding: 2rem 0;
+  }
 
   .title-holder,
   .carribean-quote {
@@ -74,10 +78,9 @@ body {
     text-align: unset;
   }
 
-  .soft-sect-3 .section-img {
+  .section-img-div .section-img {
     width: 1024px;
     height: 666px;
-    margin-left: 7.5rem;
     padding-top: 2rem;
   }
 

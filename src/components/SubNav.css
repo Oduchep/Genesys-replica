@@ -47,10 +47,11 @@
 
   .subnav {
     display: flex;
+    align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
     width: 70%;
     margin: auto;
-    height: 40px;
+    height: 48px;
   }
 }
