@@ -1,0 +1,56 @@
+/* For sub nav */
+
+.menu-icon {
+  cursor: pointer;
+  float: right;
+  padding-right: 1rem;
+  background-color: #ffff;
+  border-radius: 3px;
+  width: 35px;
+  height: 35px;
+}
+
+.menu-icon .bars {
+  padding: 11px 8px;
+}
+.menu-icon .times {
+  padding: 11px 10px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: right;
+  padding: 1rem;
+  background: #17255a;
+}
+
+.subnav {
+  display: none;
+}
+
+.subnav-active {
+  list-style: none;
+  width: 100%;
+  left: 0;
+  opacity: 1;
+  transition: all 0.5s ease;
+  z-index: 1;
+  padding-left: 2rem;
+  color: white;
+}
+
+/* For tablet and laptop screens */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1400px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .subnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+    height: 40px;
+  }
+}

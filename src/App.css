@@ -5,8 +5,7 @@
 }
 
 body {
-  font-family: "Nunito";
-  color: #273043;
+  font-family: "Nunito" sans-serif;
 }
 
 .hidden {

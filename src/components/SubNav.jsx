@@ -1,24 +1,41 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
-import './NavAndFooter.css';
+import './SubNav.css';
 
-const SubNav = () => {
-    const styles = {
-        color: "white",
-        fontSize: 20
+class SubNav extends React.Component {
+    state = {clicked: false}
+
+    handleClick = () => {
+        this.setState({clicked: !this.state.clicked})
     }
-    return (
-        <div className="nav-container">
-            <ul className='subnav'>
-                <li><NavLink style={styles} to='/'>Home</NavLink></li>
-                <li><NavLink style={styles} to='/software developer'>Software Developer</NavLink></li>
-                <li><NavLink style={styles} to='/product designer'>Product Designer</NavLink></li>
-                <li><NavLink style={styles} to='/apply'>Apply</NavLink></li>
-                <li><NavLink style={styles} to='/journal'>Journal</NavLink></li>
-                <li><NavLink style={styles} to='/FAQ'>FAQ</NavLink></li>
-            </ul>
-        </div>
-    )
+
+
+    render(){
+        const styler = {
+            color: "#ffff",
+            fontSize: 20
+        }
+
+        return (
+            <div className="nav-container">
+                <ul className={this.state.clicked ? 'subnav-active' : 'subnav'}>
+                    <li><NavLink style={styler} to='/'>HOME</NavLink></li><br/>
+                    <li className="nav-links"><NavLink style={styler} to='/software developer'>SOFTWARE DEVELOPERS</NavLink></li><br/>
+                    <li className="nav-links"><NavLink style={styler} to='/product designer'>PRODUCT DESIGNERS</NavLink></li><br/>
+                    <li className="nav-links"><NavLink style={styler} to='/apply'>APPLY</NavLink></li><br/>
+                    <li className="nav-links"><NavLink style={styler} to='/journal'>JOURNAL</NavLink></li><br/>
+                    <li className="nav-links"><NavLink style={styler} to='/FAQ'>FAQ</NavLink></li>
+                </ul>
+
+                <div className="menu-icon" onClick={this.handleClick}>
+                    {this.state.clicked 
+                    ? <img className="times" src={require("../resources/nav/times.png")} alt="times"/> 
+                    : <img className="bars" src={require("../resources/nav/bars.png")} alt="bars"/>}
+                </div>
+            </div>
+        )
+    }
+    
 }
 
 export default SubNav;
