@@ -1,11 +1,14 @@
 import React from "react";
 import './Apply.css';
+import MainNav from './MainNav';
 import SubNav from './SubNav';
+import Footer from './Footer';
 
 class Apply extends React.Component {
     render() {
         return (
             <div>
+                <MainNav />
                 <SubNav />
                 <section className="apply-sect-1">
                     <img className="apply-img" src={require("../resources/apply/Rectangle 42.png")} alt="computer keyboard"/>
@@ -71,6 +74,7 @@ class Apply extends React.Component {
                             the way!</p><br/><br/>
                     </div>
                 </section>
+                <Footer />
             </div>
         )
     }

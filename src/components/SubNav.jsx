@@ -11,20 +11,16 @@ class SubNav extends React.Component {
 
 
     render(){
-        const styler = {
-            color: "#ffff",
-            fontSize: 15
-        }
 
         return (
             <div className="nav-container">
                 <ul className={this.state.clicked ? 'subnav-active' : 'subnav'}>
-                    <li><NavLink style={styler} to='/'>HOME</NavLink></li><br/>
-                    <li className="nav-links"><NavLink style={styler} to='/software developer'>SOFTWARE DEVELOPERS</NavLink></li><br/>
-                    <li className="nav-links"><NavLink style={styler} to='/product designer'>PRODUCT DESIGNERS</NavLink></li><br/>
-                    <li className="nav-links"><NavLink style={styler} to='/apply'>APPLY</NavLink></li><br/>
-                    <li className="nav-links"><NavLink style={styler} to='/journal'>JOURNAL</NavLink></li><br/>
-                    <li className="nav-links"><NavLink style={styler} to='/FAQ'>FAQ</NavLink></li>
+                    <li><NavLink className="nav-links" to='/'>HOME</NavLink></li><br/>
+                    <li><NavLink className="nav-links" to='/software developer'>SOFTWARE DEVELOPERS</NavLink></li><br/>
+                    <li><NavLink className="nav-links" to='/product designer'>PRODUCT DESIGNERS</NavLink></li><br/>
+                    <li><NavLink className="nav-links" to='/apply'>APPLY</NavLink></li><br/>
+                    <li><NavLink className="nav-links" to='/journal'>JOURNAL</NavLink></li><br/>
+                    <li><NavLink className="nav-links" to='/FAQ'>FAQ</NavLink></li>
                 </ul>
 
                 <div className="menu-icon" onClick={this.handleClick}>

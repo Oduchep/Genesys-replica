@@ -18,9 +18,10 @@
 }
 
 .main-nav-container {
+  width: 100%;
   display: flex;
   justify-content: right;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   background: #ffff;
 }
 
@@ -35,8 +36,15 @@
   opacity: 1;
   transition: all 0.5s ease;
   z-index: 1;
-  padding-left: 2rem;
+  padding: 1rem 0 1rem 2rem;
   text-align: center;
+}
+
+.main-nav-links {
+  color: #273043;
+  font-size: 15px;
+  text-decoration: none;
+  padding-top: 20px;
 }
 
 .main-nav-div-1 {
@@ -67,6 +75,10 @@
   .main-nav-container {
     display: flex;
     justify-content: space-between;
+  }
+
+  .main-nav-links {
+    text-decoration: underline;
   }
 
   .main-nav-div-1 {

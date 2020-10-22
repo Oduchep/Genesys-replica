@@ -2,7 +2,14 @@ body {
   font-size: 15px;
 }
 
+/* for footer */
+/* .footer-sec-1-landing div {
+  background: #03cea4 !important;
+} */
+/* end for footer here */
+
 .welcome {
+  padding-top: 7rem;
   font-size: 2.5rem;
   color: #17255a;
   font-weight: 900;
@@ -24,7 +31,6 @@ body {
   outline: none;
   background-color: transparent;
   color: #03cea4;
-  font-weight: 600;
   border: none;
   text-decoration: underline;
   padding: 1rem 0;
@@ -46,6 +52,12 @@ body {
 .landing-sec-5,
 .landing-sec-6 {
   text-align: center;
+}
+
+.landing-sec-2 h1,
+.landing-sec-3 h1,
+.landing-sec-4 h1 {
+  font-size: 24px;
 }
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1400px) {

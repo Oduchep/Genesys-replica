@@ -11,10 +11,7 @@ class SubNav extends React.Component {
 
 
     render(){
-        const styler = {
-            color: "#273043",
-            fontSize: 15,
-        }
+
 
         return (
             <div className="main-nav-container">
@@ -22,11 +19,11 @@ class SubNav extends React.Component {
                     <img className="genesys-logo" src={require("../resources/nav/genesys_logo.png")} alt="genesys logo"/>
 
                     <ul className={this.state.clicked ? 'main-nav-active' : 'main-nav'}>
-                        <li><NavLink style={styler} to='/learnable'>LEARNABLE</NavLink></li><br/>
-                        <li className="nav-links"><NavLink style={styler} to='/agora'>AGORA</NavLink></li><br/>
-                        <li className="nav-links"><NavLink style={styler} to='/starzone'>STARZONE</NavLink></li><br/>
-                        <li className="nav-links"><NavLink style={styler} to='/about'>ABOUT</NavLink></li><br/>
-                        <li className="nav-links"><NavLink style={styler} to='/contact'>CONTACT</NavLink></li><br/>
+                        <li><NavLink className="main-nav-links" to='/learnable'>LEARNABLE</NavLink></li><br/>
+                        <li><NavLink className="main-nav-links" to='/agora'>AGORA</NavLink></li><br/>
+                        <li><NavLink className="main-nav-links" to='/starzone'>STARZONE</NavLink></li><br/>
+                        <li><NavLink className="main-nav-links" to='/about'>ABOUT</NavLink></li><br/>
+                        <li><NavLink className="main-nav-links" to='/contact'>CONTACT</NavLink></li><br/>
                     </ul>
                 </div>
 

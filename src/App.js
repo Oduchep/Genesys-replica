@@ -8,15 +8,15 @@ import ProductDesigner from './components/ProductDesigner';
 import Apply from './components/Apply';
 import Journal from './components/Journal';
 import Frequent from './components/FAQ';
-import Footer from './components/Footer';
-import MainNav from './components/MainNav';
+
+
 
 
 function App() {
   return (
     <Router>
       <div>
-        <MainNav />
+        <div className="top-spacing"></div>
         <Route exact path='/' component={Home} />
         <Route path='/learnable' component={Learnable} />
         <Route path='/software developer' component={SoftwareDeveloper} />
@@ -24,7 +24,6 @@ function App() {
         <Route path='/apply' component={Apply} />
         <Route path='/journal' component={Journal} />
         <Route path='/FAQ' component={Frequent} />
-        <Footer />
       </div>
     </Router>
   )

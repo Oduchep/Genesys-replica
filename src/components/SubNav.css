@@ -18,10 +18,18 @@
 }
 
 .nav-container {
+  width: 100%;
   display: flex;
   justify-content: right;
   padding: 1rem;
   background: #17255a;
+}
+
+.nav-links {
+  color: #ffff;
+  font-size: 15px;
+  text-decoration: none;
+  padding-top: 20px;
 }
 
 .subnav {
@@ -35,14 +43,19 @@
   opacity: 1;
   transition: all 0.5s ease;
   z-index: 1;
-  padding-left: 2rem;
+  padding: 1.5rem 0 1.5rem 2rem;
   color: white;
+  text-align: center;
 }
 
 /* For tablet and laptop screens */
 @media only screen and (min-device-width: 800px) and (max-device-width: 1400px) {
   .menu-icon {
     display: none;
+  }
+
+  .nav-links {
+    text-decoration: underline;
   }
 
   .subnav {
