@@ -1,7 +1,6 @@
 import React from "react";
 import "./LandingPage.css";
 import MainNav from './MainNav';
-import Footer from './Footer';
 
 class Welcome extends React.Component {
   render() {
@@ -17,7 +16,8 @@ class Welcome extends React.Component {
               <img className="hidden ml-3" src={require("../resources/landing_page/Skip to Next Section.png")} alt="skip to next section" />
               <img className="img-lg banner-image" src={require("../resources/landing_page/Rectangle 36.png")} alt="students" />
             </div>
-            <div className="pt-1 pb-1 pl-2 pr-2 we"> We understand that opportunities are scarce in these parts. We are either creating or exposing our people to these opportunities.</div>
+            <p className="pt-1 pl-2 pr-2 we"> We understand that opportunities are scarce in these parts. 
+            We are either creating or exposing our people to these opportunities.</p>
         </section>
 
         <section className="pt-3 pb-3 landing-sec-2">
@@ -52,17 +52,17 @@ class Welcome extends React.Component {
           <div className='gen-code-pink'>
             <div className="ignite">
               <img className="img-sm" src={require("../resources/landing_page/Rectangle 42.png")} alt="Genesys Ignite" />
-              <h3 className="t-underline pt-1 pb-2 purp-col"> Genesys Ignite </h3>
+              <h1 className="t-underline pt-1 pb-2 purp-col"> Genesys Ignite </h1>
             </div>
 
             <div className="code-pink">
               <div>
                 <img className="img-sm" src={require("../resources/landing_page/Rectangle 38.png")} alt="Codeville" />
-                <h3 className="t-underline pt-1 pb-2 purp-col"> CodeVille </h3>
+                <h1 className="t-underline pt-1 pb-2 purp-col"> CodeVille </h1>
               </div>
               <div>
                 <img className="img-sm" src={require("../resources/landing_page/Rectangle 38 (1).png")} alt="pink of summer code" />
-                <h3 className="t-underline pt-1 pb-1 purp-col"> Pink Summer of Code </h3>
+                <h1 className="t-underline pt-1 pb-1 purp-col"> Pink Summer of Code </h1>
               </div>
             </div>
           </div>
@@ -76,7 +76,6 @@ class Welcome extends React.Component {
             <button className="btn-more"> SEE TEAM </button>
           </div>
         </section>
-        <Footer />
       </div>
     );
   }

@@ -3,6 +3,13 @@
   line-height: 24px;
 }
 
+/* navigation style start */
+.navigation {
+  position: fixed;
+  width: 100%;
+}
+/* navigation style end */
+
 .apply-img {
   width: 375px;
   height: 315px;
@@ -19,6 +26,10 @@
   font-weight: 900;
   padding-bottom: 1rem;
   line-height: 45px;
+}
+
+.apply-sect-1 {
+  padding-top: 9rem;
 }
 
 .apply-sect-1,

@@ -1,12 +1,13 @@
 import React from "react";
 import "./Footer.css";
-import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <div>
         <section className="footer-sec-1">
-            <img className="hidden footer-sec-1-img" src={require("../resources/footer/Go back to Top.png")} alt="arrow up"/>
+            <a href="#top">
+                <img className="hidden footer-sec-1-img" src={require("../resources/footer/Go back to Top.png")} alt="arrow up"/>
+            </a>
             <div>
                 <h1> Stay up to date on what we 
                     are doing and new learning opportunities
@@ -50,24 +51,25 @@ function Footer() {
         <section className="footer-sec-3">
             <div className="footer-sec-3-div">
                 <div className="icons">
-                    <Link to= "www.twitter.com">
+                    
+                    <a href="https://twitter.com/genesystechhub">
                         <img src={require("../resources/footer/twitter 1.png")} alt="twitter logo"/>
-                    </Link>
-                    <Link to= "www.facebook.com">
+                    </a>
+                    <a href="https://web.facebook.com/genesyshub/">
                         <img src={require("../resources/footer/facebook 1.png")} alt="facebook logo"/>
-                    </Link>
-                    <Link>
+                    </a>
+                    <a href="https://www.linkedin.com/company/genesystechhub/">
                         <img src={require("../resources/footer/linkedin 1.png")} alt="linkedin logo"/>
-                    </Link>
-                    <Link>
+                    </a>
+                    <a href="https://www.instagram.com/genesystechhub/">
                         <img src={require("../resources/footer/instagram 1.png")} alt="instagram logo"/>
-                    </Link>
-                    <Link>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCjiSVpNnioaySY7I9-4Ia7w">
                         <img src={require("../resources/footer/youtube-logotype 1.png")} alt="youtube logo"/>
-                    </Link>
-                    <Link>
+                    </a>
+                    <a href="https://www.vimeo.com">
                         <img src={require("../resources/footer/vimeo 1.png")} alt="vimeo logo"/>
-                    </Link>
+                    </a>
                 </div>
 
                 <div className="copyright">

@@ -3,13 +3,13 @@ body {
 }
 
 /* for footer */
-/* .footer-sec-1-landing div {
-  background: #03cea4 !important;
-} */
+.footer-sec-1 div {
+  background: #03cea4;
+}
 /* end for footer here */
 
 .welcome {
-  padding-top: 7rem;
+  padding-top: 6rem;
   font-size: 2.5rem;
   color: #17255a;
   font-weight: 900;
@@ -45,6 +45,10 @@ body {
   background: #17255a;
 }
 
+.landing-sec-1 {
+  padding-bottom: 3rem;
+}
+
 .landing-sec-1,
 .landing-sec-2,
 .landing-sec-3,
@@ -56,22 +60,28 @@ body {
 
 .landing-sec-2 h1,
 .landing-sec-3 h1,
-.landing-sec-4 h1 {
+.landing-sec-4 h1,
+.landing-sec-6 h1 {
   font-size: 24px;
+}
+
+.things {
+  font-size: 25px;
 }
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1400px) {
   .welcome {
-    width: 50%;
+    width: 65%;
     text-align: left;
-    padding-left: 4rem;
+    padding-left: 3rem;
   }
   .we {
-    width: 40%;
-    float: left;
+    width: 50%;
+    text-align: left;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
   }
 
-  .landing-sec-1,
   .landing-sec-2,
   .landing-sec-3,
   .landing-sec-4,
@@ -104,7 +114,7 @@ body {
   }
 
   .things {
-    font-size: 60px;
+    font-size: 55px;
     line-height: 60px;
     width: 40%;
   }

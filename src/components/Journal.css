@@ -3,7 +3,15 @@
   line-height: 25.89px;
 }
 
+/* navigation style start */
+.navigation {
+  position: fixed;
+  width: 100%;
+}
+/* navigation style end */
+
 .journal-sect-1 {
+  padding-top: 10rem;
   background: #eeeeee;
   height: 300px;
   display: flex;

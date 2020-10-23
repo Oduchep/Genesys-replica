@@ -4,6 +4,14 @@
   line-height: 24px;
 }
 
+/* navigation style start */
+.navigation {
+  position: fixed;
+  width: 100%;
+  z-index: 6;
+}
+/* navigation style end */
+
 /* GENERAL CLASSES */
 .learnable-sect-3 .banner-img,
 .general-pic {
@@ -33,7 +41,6 @@
   border-radius: 50%;
 }
 
-.learnable-sect-1,
 .learnable-sect-2,
 .learnable-sect-3,
 .learnable-sect-4,
@@ -56,6 +63,7 @@
 .learnable-sect-1 {
   background: #eac435;
   color: #17255a;
+  padding: 10rem 0 3rem 0;
 }
 
 .learnable-sect-1 p {
@@ -293,7 +301,12 @@
     border-radius: unset;
   }
 
-  .learnable-sect-1,
+  .learnable-sect-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 13rem 3rem 3rem 3rem;
+  }
+
   .learnable-sect-4,
   .learnable-sect-5,
   .learnable-sect-6,
@@ -321,7 +334,7 @@
   }
 
   .learnable-sect-2 {
-    height: 80vh;
+    height: 60vh;
   }
   .learnable-sect-2 h1,
   .learnable-sect-2 p {
@@ -330,11 +343,13 @@
 
   .learnable-sect-3 {
     position: absolute;
-    top: 550px;
+    top: 750px;
   }
   .learnable-sect-3 .dev-des {
+    position: absolute;
+    top: -60px;
     display: flex;
-    float: right;
+    right: 0;
     padding: 0 3rem 2rem 0;
   }
   .dev-circle,
@@ -352,7 +367,7 @@
   }
   .learnable-sect-3 .banner-img {
     width: 90%;
-    height: 60vh;
+    height: 50vh;
   }
   .learnable-sect-3 .hidden {
     padding-left: 3rem;

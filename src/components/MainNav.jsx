@@ -14,7 +14,7 @@ class SubNav extends React.Component {
 
 
         return (
-            <div className="main-nav-container">
+            <div className="main-nav-container" id="top">
                 <div className="main-nav-div-1">
                     <img className="genesys-logo" src={require("../resources/nav/genesys_logo.png")} alt="genesys logo"/>
 

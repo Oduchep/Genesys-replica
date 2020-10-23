@@ -1,6 +1,7 @@
 import React from "react";
 import './Learnable.css';
 import './FAQ.css';
+import MainNav from './MainNav';
 import SubNav from './SubNav';
 
 
@@ -8,7 +9,10 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-                <SubNav />
+                <div className="navigation">
+                    <MainNav />
+                    <SubNav />
+                </div>
                 <section className="learnable-sect-1">
                     <div className="text-center">
                     <h1 className="general-heading"> Coming soon: Learnable ‘20 </h1>
@@ -313,18 +317,23 @@ class Home extends React.Component {
                     <div className="FAQ-sect-2">
                     <div>
                         <p> How many people can attend a course? </p>
+                        <img src={require("../resources/FAQ/Vector 7.png")} alt="arrow pic"/>
                     </div>
                     <div>
                         <p> What’s the learning experience like? </p>
+                        <img src={require("../resources/FAQ/Vector 7.png")} alt="arrow pic"/>
                     </div>
                     <div>
                         <p> Who are the coaches? </p>
+                        <img src={require("../resources/FAQ/Vector 7.png")} alt="arrow pic"/>
                     </div>
                     <div>
                         <p> How far in advance should we book? </p>
+                        <img src={require("../resources/FAQ/Vector 7.png")} alt="arrow pic"/>
                     </div>
                     <div>
                         <p> Can you customize your courses? </p>
+                        <img src={require("../resources/FAQ/Vector 7.png")} alt="arrow pic"/>
                     </div>
                     </div>
                 </section>

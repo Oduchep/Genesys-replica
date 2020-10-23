@@ -1,12 +1,16 @@
 import React from "react";
 import './SoftwareDeveloper.css';
+import MainNav from './MainNav';
 import SubNav from './SubNav';
 
 class SoftwareDeveloper extends React.Component {
     render() {
         return (
             <div>
-                <SubNav />
+                <div className="navigation">
+                    <MainNav />
+                    <SubNav />
+                </div>
                 <section className="pt-2 t-align soft-sect-1">
                     <div className="profile-photos">
                         <img src={require("../resources/learnable_software_developer/Cutout 1.png")} alt="software developer" />

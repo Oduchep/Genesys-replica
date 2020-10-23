@@ -1,12 +1,16 @@
 import React from "react";
 import "./ProductDesigner.css"
+import MainNav from './MainNav';
 import SubNav from './SubNav';
 
 class ProductDesign extends React.Component {
     render() {
         return (
             <div>
-                <SubNav />
+                <div className="navigation">
+                    <MainNav />
+                    <SubNav />
+                </div>
                 <section className="pt-2 t-align des-sect-1">
                     <div className="profile-photo">
                         <img src={require("../resources/learnable_product_designer/Cutout 1.png")} alt="" />
