@@ -20,10 +20,11 @@ class SubNav extends React.Component {
 
                     <ul className={this.state.clicked ? 'main-nav-active' : 'main-nav'}>
                         <li><NavLink className="main-nav-links" to='/learnable'>LEARNABLE</NavLink></li><br/>
-                        <li><NavLink className="main-nav-links" to='/agora'>AGORA</NavLink></li><br/>
-                        <li><NavLink className="main-nav-links" to='/starzone'>STARZONE</NavLink></li><br/>
-                        <li><NavLink className="main-nav-links" to='/about'>ABOUT</NavLink></li><br/>
-                        <li><NavLink className="main-nav-links" to='/contact'>CONTACT</NavLink></li><br/>
+                        <li><NavLink className="main-nav-links" to='/learnable'>AGORA</NavLink></li><br/>
+                        <li><NavLink className="main-nav-links" to='/learnable'>STARZONE</NavLink></li><br/>
+                        <li><NavLink className="main-nav-links" to='/learnable'>ABOUT</NavLink></li><br/>
+                        <li><NavLink className="main-nav-links" to='/learnable'>CONTACT</NavLink></li><br/>
+                        <li><NavLink className="main-nav-links" to='/learnable'>DEV STUDIO</NavLink></li>
                     </ul>
                 </div>
 

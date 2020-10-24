@@ -34,6 +34,7 @@
 .general-btn {
   color: #03cea4;
   text-decoration: underline;
+  font-family: "Nunito" !important;
 }
 .organisers-pic {
   width: 161px;
@@ -63,7 +64,7 @@
 .learnable-sect-1 {
   background: #eac435;
   color: #17255a;
-  padding: 10rem 0 3rem 0;
+  padding: 5rem 0 3rem 0;
 }
 
 .learnable-sect-1 p {
@@ -143,6 +144,7 @@
 .rainbow-2,
 .rainbow-3,
 .rainbow-6 {
+  font-family: "Nunito" !important;
   color: #2d1e2f;
   height: 167.5px;
   width: 375px;
@@ -157,6 +159,7 @@
 .rainbow-1,
 .rainbow-4,
 .rainbow-5 {
+  font-family: "Nunito" !important;
   color: #ffff;
   height: 167.5px;
   width: 375px;
@@ -187,9 +190,9 @@
   background: #f5772f;
 }
 
-.rainbow-6,
 .rainbow-9,
 .rainbow-12 {
+  font-family: "Nunito" !important;
   color: #2d1e2f;
   height: 167.5px;
   width: 375px;
@@ -205,6 +208,7 @@
 .rainbow-8,
 .rainbow-10,
 .rainbow-11 {
+  font-family: "Nunito" !important;
   color: #ffff;
   height: 167.5px;
   width: 375px;
@@ -277,6 +281,11 @@
 
 .learnable-sect-16 h1 {
   text-align: center;
+}
+
+.text-center-2 {
+  text-align: center;
+  padding-top: 1rem;
 }
 
 /* For tablet and laptop screens */

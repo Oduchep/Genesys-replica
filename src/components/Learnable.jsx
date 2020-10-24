@@ -3,6 +3,7 @@ import './Learnable.css';
 import './FAQ.css';
 import MainNav from './MainNav';
 import SubNav from './SubNav';
+import { Link } from 'react-router-dom';
 
 
 class Home extends React.Component {
@@ -120,7 +121,7 @@ class Home extends React.Component {
                             and grow bright young minds from the get-go because that’s how our industry 
                             will thrive.
                         </p>
-                        <span className="general-btn"> LEARN MORE </span> <br/><br/>
+                        <Link className="general-btn" to="/software developer"> LEARN MORE </Link> <br/><br/>
                     </div>
                     <div className="rainbow-div">
                         <div className="rainbow">
@@ -152,7 +153,7 @@ class Home extends React.Component {
                             world’s most modern design concepts. At Genesys, 
                             we’re building designers who put the users first.
                         </p>
-                        <span className="general-btn"> LEARN MORE </span><br/><br/>
+                        <Link className="general-btn" to="/product designer"> LEARN MORE </Link><br/><br/>
                     </div>
                     <div className="rainbow-div">
                         <div className="rainbow">
@@ -308,33 +309,33 @@ class Home extends React.Component {
                             pen sketches to the final functioning product. You’ll then get to show off 
                             your special project to everyone.
                         </p>
-                        <span className="general-btn"> GET STARTED </span><br/><br/>
+                        <Link className="general-btn" to="/apply"> GET STARTED </Link><br/><br/>
                     </div>
                 </section>
 
                 <section className="learnable-sect-15">
                     <h1>FAQ</h1>
                     <div className="FAQ-sect-2">
-                    <div>
-                        <p> How many people can attend a course? </p>
-                        <img src={require("../resources/FAQ/Vector 7.png")} alt="arrow pic"/>
-                    </div>
-                    <div>
-                        <p> What’s the learning experience like? </p>
-                        <img src={require("../resources/FAQ/Vector 7.png")} alt="arrow pic"/>
-                    </div>
-                    <div>
-                        <p> Who are the coaches? </p>
-                        <img src={require("../resources/FAQ/Vector 7.png")} alt="arrow pic"/>
-                    </div>
-                    <div>
-                        <p> How far in advance should we book? </p>
-                        <img src={require("../resources/FAQ/Vector 7.png")} alt="arrow pic"/>
-                    </div>
-                    <div>
-                        <p> Can you customize your courses? </p>
-                        <img src={require("../resources/FAQ/Vector 7.png")} alt="arrow pic"/>
-                    </div>
+                        <div>
+                            <p> How many people can attend a course? </p>
+                            <img src={require("../resources/FAQ/Vector 7.png")} alt="arrow pic"/>
+                        </div>
+                        <div>
+                            <p> What’s the learning experience like? </p>
+                            <img src={require("../resources/FAQ/Vector 7.png")} alt="arrow pic"/>
+                        </div>
+                        <div>
+                            <p> Who are the coaches? </p>
+                            <img src={require("../resources/FAQ/Vector 7.png")} alt="arrow pic"/>
+                        </div>
+                        <div>
+                            <p> How far in advance should we book? </p>
+                            <img src={require("../resources/FAQ/Vector 7.png")} alt="arrow pic"/>
+                        </div>
+                        <div>
+                            <p> Can you customize your courses? </p>
+                            <img src={require("../resources/FAQ/Vector 7.png")} alt="arrow pic"/>
+                        </div>
                     </div>
                 </section>
 
@@ -369,6 +370,9 @@ class Home extends React.Component {
                                 Projects that People will care about </h1><br/>
                             <p> David Mong, Apr 9, 2020 </p>                  
                         </div>
+                    </div>
+                    <div className="text-center-2">
+                        <Link className="general-btn" to="/journal">VIEW ALL</Link>
                     </div>
                 </section>
 

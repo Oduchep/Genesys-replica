@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -24,10 +25,10 @@ function Footer() {
 
         <section className="footer-sec-2">
             <div>
-                <p className="linking"> BUILD SOFTWARE </p>
-                <p className="linking"> DESIGN DIFFERENT </p>
-                <p className="linking"> APPLY YOUR KNOWLEDGE </p>
-                <p className="linking"> FAQ </p>
+                <Link className="linking" to="/software developer"> BUILD SOFTWARE </Link><br/>
+                <Link className="linking" to="/product designer"> DESIGN DIFFERENT </Link><br/>
+                <Link className="linking" to="/apply"> APPLY YOUR KNOWLEDGE </Link><br/>
+                <Link className="linking" to="/FAQ"> FAQ </Link>
             </div>
 
             <div>
@@ -42,7 +43,7 @@ function Footer() {
             <div>
                 <p className="non-linking">Our Local Campus center: Kilometer 7, 
                     Enugu/Port Harcourt, Expressway, Centenary City, Enugu. Nigeria
-                </p><br/>
+                </p><br/><br/>
                 <p className="linking"> GET IN TOUCH </p>
             </div>
             

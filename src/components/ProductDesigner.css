@@ -10,7 +10,7 @@
 /* navigation style end */
 
 .des-sect-1 {
-  padding-top: 10rem;
+  padding-top: 5rem;
 }
 
 .profile-photo {
@@ -63,6 +63,7 @@
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1400px) {
   .des-sect-1 {
+    padding-top: 10rem;
     display: flex;
     flex-direction: row-reverse;
     text-align: unset;

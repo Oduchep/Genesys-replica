@@ -10,7 +10,7 @@
 /* navigation style end */
 
 .FAQ-sect-1 {
-  padding: 10rem 0 3rem 0;
+  padding: 5rem 0 3rem 0;
   text-align: center;
 }
 
@@ -54,7 +54,7 @@
 /* For tablet and laptop screens */
 @media only screen and (min-device-width: 800px) and (max-device-width: 1400px) {
   .FAQ-sect-1 {
-    padding: 2rem 0;
+    padding: 10rem 0 2rem 0;
     width: 90%;
     margin: auto;
     display: flex;

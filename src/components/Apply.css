@@ -29,7 +29,7 @@
 }
 
 .apply-sect-1 {
-  padding-top: 9rem;
+  padding-top: 5rem;
 }
 
 .apply-sect-1,
@@ -52,6 +52,7 @@
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1400px) {
   .apply-sect-1 {
+    padding-top: 9rem;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;

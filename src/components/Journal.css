@@ -11,7 +11,7 @@
 /* navigation style end */
 
 .journal-sect-1 {
-  padding-top: 10rem;
+  padding-top: 5rem;
   background: #eeeeee;
   height: 300px;
   display: flex;
@@ -85,7 +85,8 @@
 /* For tablet and laptop screens */
 @media only screen and (min-device-width: 800px) and (max-device-width: 1400px) {
   .journal-sect-1 {
-    height: 300px;
+    padding-top: 10rem;
+    height: 400px;
     flex-direction: row;
     justify-content: space-around;
   }
@@ -103,6 +104,7 @@
 
   .journal-img {
     width: 55%;
+    height: 400px;
     margin: unset;
   }
 

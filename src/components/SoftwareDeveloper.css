@@ -10,7 +10,7 @@ body {
 /* navigation style end */
 
 .soft-sect-1 {
-  padding-top: 10rem;
+  padding-top: 5rem;
 }
 
 .profile-photos {
@@ -64,6 +64,7 @@ body {
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1400px) {
   .soft-sect-1 {
+    padding-top: 10rem;
     display: flex;
     flex-direction: row-reverse;
     text-align: unset;
