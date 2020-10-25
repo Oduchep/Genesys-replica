@@ -36,8 +36,8 @@
   left: 0;
   opacity: 1;
   transition: all 0.5s ease;
-  z-index: 1;
-  padding: 3rem 0 1rem 2rem;
+  z-index: 2;
+  padding: 3rem 0 3rem 2rem;
   text-align: center;
 }
 
@@ -85,13 +85,13 @@
   .main-nav-div-1 {
     display: flex;
     justify-content: space-between;
-    width: 63%;
+    width: 75%;
     align-items: center;
   }
 
   .main-nav-div-2 {
     display: flex;
-    width: 30%;
+    width: 25%;
     align-items: center;
     justify-content: space-between;
   }

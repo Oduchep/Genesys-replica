@@ -9,7 +9,7 @@ body {
 /* end for footer here */
 
 .welcome {
-  padding-top: 6rem;
+  padding-top: 3rem;
   font-size: 2.5rem;
   color: #17255a;
   font-weight: 900;
@@ -66,7 +66,11 @@ body {
 }
 
 .things {
-  font-size: 25px;
+  font-size: 28px;
+}
+.gen-code-pink .ignite .t-underline,
+.gen-code-pink .code-pink .t-underline {
+  font-size: 20px !important;
 }
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1400px) {

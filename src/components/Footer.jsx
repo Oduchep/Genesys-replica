@@ -25,9 +25,9 @@ function Footer() {
 
         <section className="footer-sec-2">
             <div>
-                <Link className="linking" to="/software developer"> BUILD SOFTWARE </Link><br/>
-                <Link className="linking" to="/product designer"> DESIGN DIFFERENT </Link><br/>
-                <Link className="linking" to="/apply"> APPLY YOUR KNOWLEDGE </Link><br/>
+                <Link className="linking" to="/software developer"> BUILD SOFTWARE </Link>
+                <Link className="linking" to="/product designer"> DESIGN DIFFERENT </Link>
+                <Link className="linking" to="/apply"> APPLY YOUR KNOWLEDGE </Link>
                 <Link className="linking" to="/FAQ"> FAQ </Link>
             </div>
 

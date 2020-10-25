@@ -28,7 +28,7 @@ class Home extends React.Component {
 
                 <section className="learnable-sect-2">
                     <h1 className="text-center">Everything is Learnable</h1>
-                    <p className="general-p">Learnable is the perfect product development 
+                    <p className="general-p text-center">Learnable is the perfect product development 
                         internship program brought to you by Genesys.</p>
                 </section>
 
