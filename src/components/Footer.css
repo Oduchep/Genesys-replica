@@ -78,6 +78,9 @@ input {
   letter-spacing: 1.25px;
   font-family: "Nunito" !important;
 }
+.footer-sec-2 .linking:active {
+  color: #eac435;
+}
 
 .footer-sec-2 .non-linking {
   font-style: normal;

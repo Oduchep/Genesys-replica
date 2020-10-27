@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div>
-        <section className="footer-sec-1">
+        <section className="footer-sec-1 footer-sec-1-landing">
             <a href="#top">
                 <img className="hidden footer-sec-1-img" src={require("../resources/footer/Go back to Top.png")} alt="arrow up"/>
             </a>

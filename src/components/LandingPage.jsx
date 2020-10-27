@@ -6,7 +6,9 @@ class Welcome extends React.Component {
   render() {
     return (
       <div>
-        <MainNav />
+        <div className="landing-navigation">
+          <MainNav />
+        </div>
         <p className="pt-2 pb-3 pl-2 pr-2 welcome">
           Genesys provides opportunities for young Nigerian techies and
           opportunities to grow and innovate.
